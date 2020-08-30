@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{b1d9f008-7bb7-483f-b946-ae764104aa74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{4b27141a-b60f-4295-8484-b77be25d9014}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_final.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\floor_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\floor_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\point_light_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\point_light_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\model_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\model_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\shadow_map_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\shadow_map_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\ssao_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\ssao_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\defer_shader_pass_one_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\defer_shader_pass_one_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\defer_shader_pass_two_vert.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\defer_shader_pass_two_frag.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
